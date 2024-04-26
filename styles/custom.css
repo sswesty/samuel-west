@@ -1,0 +1,31 @@
+/*
+
+  custom.css - All your own CSS goodies
+  Version 1.x
+  by you
+
+  Use your own styles here! 
+
+  Cheers, 
+  ThemeVillain 
+  
+*/
+.folio-page-image {
+  height: calc(100vw/2);
+  background-size: cover;
+  background-position: center;
+}
+
+.folio-desc-item {
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  font-weight: 700;
+  margin: 0 5px;
+}
+
+.folio-desc-item:last-child {
+  margin: 0 !important;
+}
