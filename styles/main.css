@@ -1850,6 +1850,11 @@ header.main-header .brand .description {
   header.main-header .brand .description {
     display: none;
   }
+
+  header.main-header {
+    background: var(--accent);
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -1954,9 +1959,8 @@ body.scrolled:not(.nav-open) header.main-header .brand {
   nav.main-nav ul li.nav-trigger {
     display: block;
     cursor: pointer;
-    color: var(--dark);
     font-size: .9rem;
-    color: var(--accent);
+    color: white;
   }
 }
 
@@ -2171,7 +2175,8 @@ section {
 }
 
 section.hero {
-  padding: 13rem 0;
+  margin: 7rem 4rem 0 4rem;
+  padding: 13rem 2rem;
   background-image: var(--heroImage);
   background-size: cover;
   background-position: center;
@@ -2179,18 +2184,16 @@ section.hero {
 
 @media screen and (max-width: 1024px) {
   section.hero {
-    padding: 7rem 0;
+    margin: 0;;
+    padding: 7rem 2rem;
+    padding-top: 14rem;
   }
 }
 
 @media screen and (max-width: 640px) {
   section.hero {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
   }
-}
-
-.content > section:first-child {
-  margin-top: 7rem;
 }
 
 /*
