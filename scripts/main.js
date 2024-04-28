@@ -94,3 +94,12 @@ window.addEventListener('resize', event => {
   iso.reloadItems();
   iso.layout();
 });
+
+function openModal(index) {
+  document.getElementsByClassName("folio-page-modal")[index].style.display = "block";
+  document.getElementsByClassName("folio-page-modal--image")[index].src = document.getElementsByClassName("folio-page-image--thumb")[index].src;
+}
+
+function closeModal(index) {
+  document.getElementsByClassName("folio-page-modal")[index].style.display = "none";
+}
