@@ -694,6 +694,9 @@ h6 {
   .font-size-2 {
     font-size: 2rem !important;
   }
+  .font-upper {
+    text-transform: uppercase;
+  }
   .opacity-2 {
     opacity: 0.2 !important;
   }
