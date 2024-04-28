@@ -103,3 +103,7 @@ function openModal(index) {
 function closeModal(index) {
   document.getElementsByClassName("folio-page-modal")[index].style.display = "none";
 }
+
+function zoomModal(element) {
+  element.classList.contains("zoom") ? element.classList.remove("zoom") : element.classList.add("zoom");
+}

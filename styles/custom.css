@@ -94,6 +94,7 @@
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+  z-index: 2;
 }
 
 .close:hover,
@@ -102,14 +103,6 @@
   text-decoration: none;
   cursor: pointer;
 }
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-
 
 a.thumb {
   position: relative;
@@ -133,4 +126,22 @@ a.thumb img {
 .folio-page-modal--image {
   height: 80vh;
   width: auto;
+  transition: all .2s;
 }
+
+.zoom {
+  transform: scale(3) translate(33%, 33%);
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+
+  .folio-page-modal--image {
+    height: auto;
+    width: 80vw;
+  }
+}
+
