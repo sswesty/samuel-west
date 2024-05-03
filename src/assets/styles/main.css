@@ -433,7 +433,7 @@ h1 + h1, h1 + h2, h1 + h3, a.thumb .caption h1 + .title, h1 + h4, a.thumb .capti
   padding-bottom: 1rem;
 }
 
-h1 a, h2 a, h3 a, a.thumb .caption .title a, h4 a, a.thumb .caption .tag a, h5 a, h6 a, p a, .list li a, .btn a {
+h1 a, h2 a, h3 a, a.thumb .caption .title a, h4 a, a.thumb .caption .tag a, h5 a, h6 a, p a, .list li a, .btn a, footer a {
   text-decoration: none;
   color: var(--accent);
   border-bottom: 1px solid var(--accent);
@@ -2091,22 +2091,24 @@ ul.secondary-nav li:first-child {
   margin-left: 0;
 }
 
-ul.secondary-nav li a {
+ul.secondary-nav li span {
   text-decoration: none;
   font-size: 1.2rem;
   color: var(--dark);
+  transition: all .2s;
 }
 
-ul.secondary-nav li a:hover {
+ul.secondary-nav li span:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
-ul.secondary-nav li a.active {
+ul.secondary-nav li span.active {
   color: var(--accent);
   font-weight: 700;
 }
 
-ul.secondary-nav li a.active:hover {
+ul.secondary-nav li span.active:hover {
   opacity: 1;
 }
 
