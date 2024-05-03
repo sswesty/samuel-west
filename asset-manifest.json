@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samuel-west/static/css/main.5f29ee28.css",
-    "main.js": "/samuel-west/static/js/main.65691551.js",
+    "main.js": "/samuel-west/static/js/main.96557bf0.js",
     "static/media/thumbnail.jpg": "/samuel-west/static/media/thumbnail.f35cbbbc0cf1ce0d7db9.jpg",
     "static/media/certificate.jpg": "/samuel-west/static/media/certificate.2b8c0e67e436c04920d4.jpg",
     "static/media/mug.jpg": "/samuel-west/static/media/mug.a289faad25c05f03b3e2.jpg",
@@ -26,10 +26,10 @@
     "static/media/logo-light.svg": "/samuel-west/static/media/logo-light.ab8e918b5efd47e2a4feb700c2cd90b9.svg",
     "index.html": "/samuel-west/index.html",
     "main.5f29ee28.css.map": "/samuel-west/static/css/main.5f29ee28.css.map",
-    "main.65691551.js.map": "/samuel-west/static/js/main.65691551.js.map"
+    "main.96557bf0.js.map": "/samuel-west/static/js/main.96557bf0.js.map"
   },
   "entrypoints": [
     "static/css/main.5f29ee28.css",
-    "static/js/main.65691551.js"
+    "static/js/main.96557bf0.js"
   ]
 }
