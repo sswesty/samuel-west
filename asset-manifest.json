@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.517517a3.css",
-    "main.js": "/static/js/main.f4aa14be.js",
+    "main.css": "/static/css/main.9f070bab.css",
+    "main.js": "/static/js/main.0d887308.js",
     "static/media/thumbnail.jpg": "/static/media/thumbnail.f35cbbbc0cf1ce0d7db9.jpg",
     "static/media/certificate.jpg": "/static/media/certificate.2b8c0e67e436c04920d4.jpg",
+    "static/media/pin.jpg": "/static/media/pin.43fe063fa6ddd342f0e3.jpg",
+    "static/media/coffee.jpg": "/static/media/coffee.ff489feb086e20238224.jpg",
     "static/media/mug.jpg": "/static/media/mug.a289faad25c05f03b3e2.jpg",
-    "static/media/profile.jpg": "/static/media/profile.c3e496bc5c8e5dc6e171.jpg",
-    "static/media/tshirt.jpg": "/static/media/tshirt.a739740b6e36f4f9cb32.jpg",
     "static/media/stationary.jpg": "/static/media/stationary.3ddead981b72790e32bf.jpg",
+    "static/media/profile.jpg": "/static/media/profile.c3e496bc5c8e5dc6e171.jpg",
+    "static/media/tshirt.jpg": "/static/media/tshirt.9f93b06158800b7c6264.jpg",
     "static/media/hero-bg.jpg": "/static/media/hero-bg.60bd3cf2f060fa8c3091.jpg",
     "static/media/dog-mat.jpg": "/static/media/dog-mat.622fb94dfa95ec2216d7.jpg",
     "static/media/existing.png": "/static/media/existing.26ffb2a2ef6fbc8e0c0f.png",
-    "static/media/colours.png": "/static/media/colours.584af9aae4df4799e7dd.png",
-    "static/media/guides-square.png": "/static/media/guides-square.a9ee972ad89ecc64fc76.png",
-    "static/media/guides-horizontal.png": "/static/media/guides-horizontal.fffa9ca54ff84400d55e.png",
     "static/media/hero-bg.png": "/static/media/hero-bg.e0fc61064e94920142a6.png",
+    "static/media/colours.png": "/static/media/colours.b767cd73a63db4101427.png",
+    "static/media/mouse-pad.jpg": "/static/media/mouse-pad.b3632485dc763e5301d9.jpg",
+    "static/media/guides-square.png": "/static/media/guides-square.a9ee972ad89ecc64fc76.png",
+    "static/media/grid-full.png": "/static/media/grid-full.2df297138c131d132d5b.png",
+    "static/media/guides-horizontal.png": "/static/media/guides-horizontal.fffa9ca54ff84400d55e.png",
     "static/media/new-accent.png": "/static/media/new-accent.5eba409bc9e38c799e5b.png",
     "static/media/new-light.png": "/static/media/new-light.6ee0ff4a8eb111a5f77e.png",
     "static/media/typography.png": "/static/media/typography.823e37cb5d59d3ec9cd2.png",
+    "static/media/new-white.png": "/static/media/new-white.f247177e6d88749a78e1.png",
+    "static/media/new-colour.png": "/static/media/new-colour.2e1bda63f8300870ea0f.png",
+    "static/media/original.png": "/static/media/original.4a6d3afbd376761724c3.png",
+    "static/media/new-black.png": "/static/media/new-black.00dc4da0aeb624daf57c.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/footer-logo.png": "/static/media/footer-logo.b3bd48303bf71231b892.png",
@@ -25,11 +33,11 @@
     "static/media/logo.svg": "/static/media/logo.cd2435af8d6750a332073908ec8d1202.svg",
     "static/media/logo-light.svg": "/static/media/logo-light.ab8e918b5efd47e2a4feb700c2cd90b9.svg",
     "index.html": "/index.html",
-    "main.517517a3.css.map": "/static/css/main.517517a3.css.map",
-    "main.f4aa14be.js.map": "/static/js/main.f4aa14be.js.map"
+    "main.9f070bab.css.map": "/static/css/main.9f070bab.css.map",
+    "main.0d887308.js.map": "/static/js/main.0d887308.js.map"
   },
   "entrypoints": [
-    "static/css/main.517517a3.css",
-    "static/js/main.f4aa14be.js"
+    "static/css/main.9f070bab.css",
+    "static/js/main.0d887308.js"
   ]
 }
