@@ -14,13 +14,13 @@ const Footer = ({ logo }) => (
         <hr class="footer-divider col-12" />
         <section class="w-10 ph-3">
             <div class="grid v-center">
-                <div class="col-6">
+                <div class="col-6 col-sm-12">
                     <img className="logo-footer mb-2" src={logo} alt="Logo light" />
                     <p>
                         Sam has been freelance designing for around 5 years, and worked with many different clients over that time. He has a bachelors degree in Interactive and Visual Design, but more importantly than all of that, a true passion to see his clients benefit from his services.
                     </p>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-12">
                     <div class="footer-list">
                         <h3 class="font-special mb-2">Services</h3>
                         <p><span class="color-accent">&gt;</span> Logo Design</p>
@@ -28,7 +28,7 @@ const Footer = ({ logo }) => (
                         <p><span class="color-accent">&gt;</span> Identity Design</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-12">
                     <div class="footer-list">
                         <h3 class="font-special mb-2">Useful links</h3>
                         <p><a href="/#work"><span class="color-accent">&gt;</span> Work</a></p>

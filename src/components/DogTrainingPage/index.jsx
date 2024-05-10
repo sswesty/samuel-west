@@ -29,8 +29,8 @@ const DogTrainingPage = () => {
           <Navbar />
           <section className="hero" id="home">
             <div className="container text-left">
-              <h4>Dog Training Service</h4>
               <h1 className="pb-1 color-light m-0 font-size-5">Dog Training 101</h1>
+              <h4 className="project-category mb-2">Dog Training Service</h4>
               <p className="pb-2 color-light m-0">
                 With a deep passion for rescue dogs, this dog training and
                 behavior modification service emphasizes the importance of
@@ -52,7 +52,7 @@ const DogTrainingPage = () => {
 
           {/* Content */}
           <div className="content">
-            <div className="grid pv-3">
+            <div className="grid pv-6">
               <div className="col-3 col-xs-12">
                 <h2 className="font-special">The concept</h2>
               </div>
@@ -98,7 +98,7 @@ const DogTrainingPage = () => {
               </div>
             </div>
 
-            <div className="grid pv-3">
+            <div className="grid pv-6">
               <div className="col-3 col-xs-12">
                 <h2 className="font-special">The colours &amp; typography</h2>
               </div>
@@ -148,7 +148,7 @@ const DogTrainingPage = () => {
               </div>
             </div>
 
-            <div className="grid pv-3 mb-2">
+            <div className="grid pv-6 mb-2">
               <div className="col-3 col-xs-12">
                 <h2 className="font-special">Concluding remarks</h2>
               </div>

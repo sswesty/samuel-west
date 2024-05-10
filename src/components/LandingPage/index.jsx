@@ -14,6 +14,7 @@ import { changeFilter } from '../../utils/gridUtils';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Hire from '../common/Hire';
+import { Link } from 'react-router-dom';
 
 const responsive = {
     superLargeDesktop: {
@@ -40,8 +41,7 @@ const LandingPage = () => {
     const root = document.querySelector(':root');
     root.style.setProperty('--dark', '#222'); 
     root.style.setProperty('--accent', '#455E97'); 
-    root.style.setProperty('--heroImage', `url(${HeroImage})`); 
-
+    root.style.setProperty('--heroImage', `url(${HeroImage})`);    
     return (<>
         <Navbar />
         <section class="hero" id="home">
@@ -68,14 +68,14 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div class="grid masonry gallery">
-                    <a class="client-work thumb item col-4 col-md-6 col-xs-12" href="/dog-training">
+                    <Link class="client-work thumb item col-4 col-md-6 col-xs-12" to="/dog-training">
                         <div class="route-item"></div>
                         <img alt="Gumo dummy image" src={DogTrainingThumbnail} />
                         <div class="caption">
                         <div class="title font-special">Dog Training 101</div>
                         <div class="tag">Dog Training Service</div>
                         </div>
-                    </a>
+                    </Link>
                     <a class="personal thumb item col-4 col-md-6 col-xs-12" href="single.html">
                         <img alt="Gumo dummy image" src={WestTilingThumbnail} />
                         <div class="caption">
@@ -83,13 +83,13 @@ const LandingPage = () => {
                         <div class="tag">Tiling Service</div>
                         </div>
                     </a>
-                    <a class="client-work thumb item col-4 col-md-6 col-xs-12" href="single.html">
+                    <Link class="client-work thumb item col-4 col-md-6 col-xs-12" to="/uqcs">
                         <img alt="Gumo dummy image" src={UQCSThumbnail} />
                         <div class="caption">
                         <div class="title font-special">UQ Computing Society</div>
                         <div class="tag">University Club</div>
                         </div>
-                    </a>
+                    </Link>
                     <a class="personal thumb item col-4 col-md-6 col-xs-12" href="single.html">
                         <img alt="Gumo dummy image" src={LightningGamesThumbnail} />
                         <div class="caption">
@@ -159,7 +159,7 @@ const LandingPage = () => {
             </section>
             <Hire hireTitle="Hire Sam" hireSubtitle="Tackle the future together and create something truly meaningful." />
         </div>
-        <Footer logo={FooterLogo} />
+        <Footer logo={FooterLogo    } />
     </>);
 }
  

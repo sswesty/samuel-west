@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/img/logo.svg';
 import LogoLight from '../../assets/img/logo-light.svg';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => (
     <header className="main-header">
@@ -12,9 +13,9 @@ const Navbar = () => (
         <nav className="main-nav">
             <ul className="nav-items">
                 <li className="nav-trigger">Menu</li>
-                <li><a className="nav-item" href="#work">Work</a></li>
-                <li><a className="nav-item" href="#about">About</a></li>
-                <li><a className="nav-item" href="#contact">Hire me</a></li>
+                <li><HashLink className="nav-item" to="/#work">Work</HashLink></li>
+                <li><HashLink className="nav-item" to="/#about">About</HashLink></li>
+                <li><HashLink className="nav-item" to="/#contact">Hire me</HashLink></li>
             </ul>
         </nav>
     </header> 

@@ -194,6 +194,15 @@ a.thumb img {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 640px) {
+  .footer-list {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+}
+
 footer {
   background: var(--dark);
   color: white;
@@ -210,4 +219,28 @@ footer hr {
 
 footer p {
   color: white !important;
+}
+
+.scroll-to-top-button {
+  width: 50px !important;
+  height: 50px !important;
+  background: var(--accent) !important;
+}
+
+.scroll-to-top-button svg {
+  transform: translateY(3px);
+  transition: all .2s;
+}
+
+.scroll-to-top-button:hover svg {
+  transform: translateY(-1px) scale(1.1);
+}
+
+.project-category {
+  display: block;
+  color: var(--accent);
+  border: 3px solid var(--accent);
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: fit-content;
 }
