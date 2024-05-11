@@ -5,7 +5,7 @@ import Footer from '../common/Footer';
 import HeroImage from '../../assets/img/work/uqcs/hero-bg.png';
 
 import Existing from '../../assets/img/work/uqcs/original.png';
-import NewColour from '../../assets/img/work/uqcs/new-colour.png';
+import LogoAnim from '../../assets/img/work/uqcs/logo-anim.mp4';
 import NewBlack from '../../assets/img/work/uqcs/new-black.png';
 import NewWhite from '../../assets/img/work/uqcs/new-white.png';
 import GridFull from '../../assets/img/work/uqcs/grid-full.png';
@@ -16,7 +16,7 @@ import Stationary from '../../assets/img/work/uqcs/stationary.jpg';
 import Tshirt from '../../assets/img/work/uqcs/tshirt.jpg';
 import Pin from '../../assets/img/work/uqcs/pin.jpg';
 import MousePad from '../../assets/img/work/uqcs/mouse-pad.jpg';
-import FooterLogo from '../../assets/img/work/uqcs/footer-logo.png';
+import Logo from '../../assets/img/work/uqcs/logo.png';
 
 import ModalImage from 'react-modal-image';
 import Hire from '../common/Hire';
@@ -27,28 +27,16 @@ const UqcsPage = () => {
   root.style.setProperty('--dark', '#19151c'); 
   root.style.setProperty('--accent', '#51247a'); 
   root.style.setProperty('--heroImage', `url(${HeroImage})`);
+  document.title = "Samuel West | UQCS";
 
   return (<>
-          <Navbar />
+          <Navbar logo={Logo} />
           <section className="hero" id="home">
             <div className="container text-left">
               <h1 className="pb-1 color-light m-0 font-size-5">UQCS</h1>
               <h4 className="project-category mb-2">University Computing Society</h4>
               <p className="pb-2 color-light m-0">
-                With a deep passion for rescue dogs, this dog training and
-                behavior modification service emphasizes the importance of
-                obedience and structure in creating harmony within families and
-                preventing dogs from ending up in shelters. Rejecting fear-based
-                methods, they prioritize building trust and mutual respect
-                between owners and their pets through positive reinforcement
-                techniques. Their team, dedicated to rehabilitating rescue
-                dogs, believes in continuous education and employs
-                science-based, humane training methods. By offering friendly
-                and professional training sessions, they equip dog owners with
-                the skills to foster a healthy relationship with their pets,
-                addressing issues like obedience and behavior, while also
-                extending their expertise to dog rehabilitation after accidents
-                or injuries.
+                UQCS, the University of Queensland Computing Society, is a dynamic community of tech enthusiasts constantly exploring cutting-edge technologies. From mastering programming languages like Python and JavaScript to delving into emerging fields such as artificial intelligence and blockchain, UQCS members are passionate about learning all things tech. Through hackathons, workshops, and collaborative projects, UQCS fosters a spirit of innovation and collaboration.
               </p>
             </div>
           </section>
@@ -60,7 +48,7 @@ const UqcsPage = () => {
                 <h2 className="font-special">The background</h2>
               </div>
               <p className="col-9 col-xs-12 m-0">
-                When I was still a student at Queensland University of Technology, UQCS were looking for a redesign of their logo. For context, UQCS is a computing society at the University of Queensland that can be seen as a group of passionate students who are tech-savvy and enjoy their activities like coding and networking. They held a logo redesign competition, with a first, second and third place prize. I was lucky enough to win first and second place, with this logo being given first place.
+                When I was still a student at Queensland University of Technology, UQCS were looking for a redesign of their logo. They held a logo redesign competition, with a first, second and third place prize. I was lucky enough to win first and second place, with this logo being given first place.
               </p>
             </div>
 
@@ -69,7 +57,14 @@ const UqcsPage = () => {
                 <ModalImage small={Existing} large={Existing} />
               </div>
               <div class="personal thumb item folio-page-image col-12">
-                <ModalImage small={NewColour} large={NewColour} />
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+                >
+                  <source src={LogoAnim} type="video/mp4" />
+                </video>
               </div>
               <div class="personal thumb item folio-page-image col-6 col-xs-12">
                 <ModalImage small={NewBlack} large={NewBlack} />
@@ -123,7 +118,7 @@ const UqcsPage = () => {
 
             <Hire hireTitle="Let's give your brand a facelift!" hireSubtitle="If you want help rebranding or uplifting your brand, I am eager to help!" />
           </div>
-        <Footer logo={FooterLogo} />
+        <Footer logo={Logo} />
       </>
   );
 };

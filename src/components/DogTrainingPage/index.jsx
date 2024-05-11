@@ -3,6 +3,7 @@ import Navbar from '../common/Navbar';
 import Footer from '../common/Footer';
 import HeroImage from '../../assets/img/work/dog-training/hero-bg.png';
 import Existing from '../../assets/img/work/dog-training/existing.png';
+import LogoAnim from '../../assets/img/work/dog-training/logo-anim.mp4';
 import NewLight from '../../assets/img/work/dog-training/new-light.png';
 import NewAccent from '../../assets/img/work/dog-training/new-accent.png';
 import GuidesHorizontal from '../../assets/img/work/dog-training/guides-horizontal.png';
@@ -14,7 +15,7 @@ import Mug from '../../assets/img/work/dog-training/mug.jpg';
 import Stationary from '../../assets/img/work/dog-training/stationary.jpg';
 import Tshirt from '../../assets/img/work/dog-training/tshirt.jpg';
 import DogMat from '../../assets/img/work/dog-training/dog-mat.jpg';
-import FooterLogo from '../../assets/img/work/dog-training/footer-logo.png';
+import Logo from '../../assets/img/work/dog-training/logo.png';
 import ModalImage from 'react-modal-image';
 import Hire from '../common/Hire';
 
@@ -24,9 +25,10 @@ const DogTrainingPage = () => {
   root.style.setProperty('--dark', '#0C0D0F'); 
   root.style.setProperty('--accent', '#2FAA67'); 
   root.style.setProperty('--heroImage', `url(${HeroImage})`);
+  document.title = "Samuel West | Dog Training 101";
 
   return (<>
-          <Navbar />
+          <Navbar logo={Logo} />
           <section className="hero" id="home">
             <div className="container text-left">
               <h1 className="pb-1 color-light m-0 font-size-5">Dog Training 101</h1>
@@ -83,6 +85,16 @@ const DogTrainingPage = () => {
             <div class="grid gallery">
               <div class="client-work thumb item folio-page-image col-12">
                 <ModalImage small={Existing} large={Existing} />
+              </div>
+              <div class="client-work thumb item folio-page-image col-12">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+                >
+                  <source src={LogoAnim} type="video/mp4" />
+                </video>
               </div>
               <div class="personal thumb item folio-page-image col-6 col-xs-12">
                 <ModalImage small={NewLight} large={NewLight} />
@@ -164,7 +176,7 @@ const DogTrainingPage = () => {
 
             <Hire hireTitle="Let's give your brand a facelift!" hireSubtitle="If you want help rebranding or uplifting your brand, I am eager to help!" />
           </div>
-        <Footer logo={FooterLogo} />
+        <Footer logo={Logo} />
       </>
   );
 };

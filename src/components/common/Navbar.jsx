@@ -1,12 +1,11 @@
 import React from 'react';
-import Logo from '../../assets/img/logo.svg';
 import LogoLight from '../../assets/img/logo-light.svg';
 import { HashLink } from 'react-router-hash-link';
 
-const Navbar = () => (
+const Navbar = ({ logo }) => (
     <header className="main-header">
         <a className="brand" href="/">
-            <img className="logo-desktop" src={Logo} alt="Logo" />
+            <img className="logo-desktop" src={logo} alt="Logo" />
             <img className="logo-mobile" src={LogoLight} alt="Logo light" />
         </a>
 

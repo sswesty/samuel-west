@@ -5,7 +5,7 @@ import UQCSThumbnail from '../../assets/img/work/uqcs/thumbnail.jpg';
 import LightningGamesThumbnail from '../../assets/img/work/lightning-games/thumbnail.jpg';
 import RogueNationThumbnail from '../../assets/img/work/rogue-nation/thumbnail.jpg';
 import SomeWorriesThumbnail from '../../assets/img/work/some-worries/thumbnail.jpg';
-import FooterLogo from '../../assets/img/footer-logo.png';
+import Logo from '../../assets/img/logo.png';
 import HeroImage from '../../assets/img/hero-bg.jpg';
 import Profile from '../../assets/img/profile.jpg';
 import Navbar from '../common/Navbar';
@@ -41,9 +41,11 @@ const LandingPage = () => {
     const root = document.querySelector(':root');
     root.style.setProperty('--dark', '#222'); 
     root.style.setProperty('--accent', '#455E97'); 
-    root.style.setProperty('--heroImage', `url(${HeroImage})`);    
+    root.style.setProperty('--heroImage', `url(${HeroImage})`);
+    document.title = "Samuel West";     
+
     return (<>
-        <Navbar />
+        <Navbar logo={Logo} />
         <section class="hero" id="home">
             <div class="container text-left">
                 <h1 class="pb-2 font-size-5 color-light">Make your business competitive!</h1>
@@ -159,7 +161,7 @@ const LandingPage = () => {
             </section>
             <Hire hireTitle="Hire Sam" hireSubtitle="Tackle the future together and create something truly meaningful." />
         </div>
-        <Footer logo={FooterLogo    } />
+        <Footer logo={Logo} />
     </>);
 }
  
