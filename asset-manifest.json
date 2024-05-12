@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.9f070bab.css",
-    "main.js": "/static/js/main.0d887308.js",
+    "main.js": "/static/js/main.ab14efc5.js",
     "static/media/thumbnail.jpg": "/static/media/thumbnail.f35cbbbc0cf1ce0d7db9.jpg",
     "static/media/certificate.jpg": "/static/media/certificate.2b8c0e67e436c04920d4.jpg",
+    "static/media/logo-anim.mp4": "/static/media/logo-anim.757182dc35f6bedd6d5f.mp4",
     "static/media/pin.jpg": "/static/media/pin.43fe063fa6ddd342f0e3.jpg",
     "static/media/coffee.jpg": "/static/media/coffee.ff489feb086e20238224.jpg",
     "static/media/mug.jpg": "/static/media/mug.a289faad25c05f03b3e2.jpg",
@@ -23,21 +24,19 @@
     "static/media/new-light.png": "/static/media/new-light.6ee0ff4a8eb111a5f77e.png",
     "static/media/typography.png": "/static/media/typography.823e37cb5d59d3ec9cd2.png",
     "static/media/new-white.png": "/static/media/new-white.f247177e6d88749a78e1.png",
-    "static/media/new-colour.png": "/static/media/new-colour.2e1bda63f8300870ea0f.png",
     "static/media/original.png": "/static/media/original.4a6d3afbd376761724c3.png",
     "static/media/new-black.png": "/static/media/new-black.00dc4da0aeb624daf57c.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/footer-logo.png": "/static/media/footer-logo.b3bd48303bf71231b892.png",
+    "static/media/logo.png": "/static/media/logo.b3bd48303bf71231b892.png",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/logo.svg": "/static/media/logo.cd2435af8d6750a332073908ec8d1202.svg",
     "static/media/logo-light.svg": "/static/media/logo-light.ab8e918b5efd47e2a4feb700c2cd90b9.svg",
     "index.html": "/index.html",
     "main.9f070bab.css.map": "/static/css/main.9f070bab.css.map",
-    "main.0d887308.js.map": "/static/js/main.0d887308.js.map"
+    "main.ab14efc5.js.map": "/static/js/main.ab14efc5.js.map"
   },
   "entrypoints": [
     "static/css/main.9f070bab.css",
-    "static/js/main.0d887308.js"
+    "static/js/main.ab14efc5.js"
   ]
 }
